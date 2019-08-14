@@ -1,0 +1,2 @@
+#!/bin/sh
+make -C /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/tools/sourcekitd/bin/XPC/Client -f /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/tools/sourcekitd/bin/XPC/Client/CMakeScripts/sourcekitd_preBuildCommands.make$CONFIGURATION OBJDIR=$(basename "$OBJECT_FILE_DIR_normal") all

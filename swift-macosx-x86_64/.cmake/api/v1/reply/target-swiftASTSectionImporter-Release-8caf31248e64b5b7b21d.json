@@ -1,0 +1,349 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/lib/libswiftASTSectionImporter.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_host_library",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"target_link_libraries",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"lib/ASTSectionImporter/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 18
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 54,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 744,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 745,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 746,
+				"parent" : 21
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -O3    -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/lib/ASTSectionImporter"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ASTSectionImporter"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-parse-syntax-generated-headers::@50dc68b246b3639a8224"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftASTSectionImporter::@7461ec17db9b4d942a0a",
+	"name" : "swiftASTSectionImporter",
+	"nameOnDisk" : "libswiftASTSectionImporter.a",
+	"paths" : 
+	{
+		"build" : "lib/ASTSectionImporter",
+		"source" : "lib/ASTSectionImporter"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/ASTSectionImporter/ASTSectionImporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/ASTSectionImporter/ASTSectionImporter.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

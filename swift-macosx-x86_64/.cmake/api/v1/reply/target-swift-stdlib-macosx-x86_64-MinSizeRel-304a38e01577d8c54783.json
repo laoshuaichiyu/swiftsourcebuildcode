@@ -1,0 +1,1189 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"swift_create_stdlib_targets",
+			"add_dependencies",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"stdlib/CMakeLists.txt",
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/Darwin/Intents/CMakeLists.txt",
+			"stdlib/public/Darwin/MapKit/CMakeLists.txt",
+			"stdlib/public/Darwin/Metal/CMakeLists.txt",
+			"stdlib/public/Darwin/Photos/CMakeLists.txt",
+			"stdlib/public/Darwin/Vision/CMakeLists.txt",
+			"stdlib/public/Darwin/XCTest/CMakeLists.txt",
+			"stdlib/public/Darwin/XPC/CMakeLists.txt",
+			"stdlib/private/SwiftPrivate/CMakeLists.txt",
+			"stdlib/private/RuntimeUnittest/CMakeLists.txt",
+			"stdlib/private/StdlibUnicodeUnittest/CMakeLists.txt",
+			"stdlib/private/StdlibCollectionUnittest/CMakeLists.txt",
+			"stdlib/private/SwiftPrivateLibcExtras/CMakeLists.txt",
+			"stdlib/private/SwiftPrivateThreadExtras/CMakeLists.txt",
+			"stdlib/private/StdlibUnittest/CMakeLists.txt",
+			"stdlib/public/Darwin/OpenCL/CMakeLists.txt",
+			"stdlib/public/Darwin/os/CMakeLists.txt",
+			"stdlib/public/Darwin/QuartzCore/CMakeLists.txt",
+			"stdlib/public/Darwin/SafariServices/CMakeLists.txt",
+			"stdlib/public/Darwin/SceneKit/CMakeLists.txt",
+			"stdlib/public/Darwin/simd/CMakeLists.txt",
+			"stdlib/public/Darwin/SpriteKit/CMakeLists.txt",
+			"stdlib/toolchain/legacy_layouts/CMakeLists.txt",
+			"stdlib/toolchain/Compatibility50/CMakeLists.txt",
+			"stdlib/toolchain/CompatibilityDynamicReplacements/CMakeLists.txt",
+			"stdlib/public/core/CMakeLists.txt",
+			"stdlib/public/SwiftOnoneSupport/CMakeLists.txt",
+			"stdlib/public/Reflection/CMakeLists.txt",
+			"stdlib/public/SwiftRemoteMirror/CMakeLists.txt",
+			"stdlib/public/Platform/CMakeLists.txt",
+			"stdlib/public/Darwin/Accelerate/CMakeLists.txt",
+			"stdlib/public/Darwin/AppKit/CMakeLists.txt",
+			"stdlib/public/Darwin/AVFoundation/CMakeLists.txt",
+			"stdlib/public/Darwin/CloudKit/CMakeLists.txt",
+			"stdlib/public/Darwin/Compression/CMakeLists.txt",
+			"stdlib/public/Darwin/Contacts/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreAudio/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreData/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreFoundation/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreGraphics/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreImage/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreLocation/CMakeLists.txt",
+			"stdlib/public/Darwin/CoreMedia/CMakeLists.txt",
+			"stdlib/public/Darwin/CryptoTokenKit/CMakeLists.txt",
+			"stdlib/public/Darwin/Dispatch/CMakeLists.txt",
+			"stdlib/public/Darwin/Foundation/CMakeLists.txt",
+			"stdlib/public/Darwin/GameplayKit/CMakeLists.txt",
+			"stdlib/public/Darwin/GLKit/CMakeLists.txt",
+			"stdlib/public/Darwin/IOKit/CMakeLists.txt",
+			"stdlib/public/Darwin/NaturalLanguage/CMakeLists.txt",
+			"stdlib/public/Darwin/MetalKit/CMakeLists.txt",
+			"stdlib/public/Darwin/ModelIO/CMakeLists.txt",
+			"stdlib/public/Darwin/ObjectiveC/CMakeLists.txt",
+			"stdlib/public/Darwin/Network/CMakeLists.txt",
+			"stdlib/private/OSLog/CMakeLists.txt",
+			"stdlib/private/StdlibUnittestFoundationExtras/CMakeLists.txt",
+			"stdlib/private/SwiftReflectionTest/CMakeLists.txt",
+			"tools/SourceKit/tools/swift-lang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 13
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 16
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 4,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 22
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 5,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 25
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 3,
+				"parent" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 28
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 3,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 31
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 3,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 34
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 1,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 37
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 1,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 40
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 13,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 43
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 4,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 46
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 4,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 49
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 4,
+				"parent" : 51
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 52
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 19,
+				"line" : 4,
+				"parent" : 54
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 55
+			},
+			{
+				"file" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 20,
+				"line" : 4,
+				"parent" : 57
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 58
+			},
+			{
+				"file" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 21,
+				"line" : 4,
+				"parent" : 60
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 61
+			},
+			{
+				"file" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 22,
+				"line" : 4,
+				"parent" : 63
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 64
+			},
+			{
+				"file" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 31,
+				"parent" : 66
+			},
+			{
+				"file" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 24,
+				"line" : 3,
+				"parent" : 68
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 69
+			},
+			{
+				"file" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 3,
+				"parent" : 71
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 72
+			},
+			{
+				"file" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 26,
+				"line" : 302,
+				"parent" : 74
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 75
+			},
+			{
+				"file" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 27,
+				"line" : 1,
+				"parent" : 77
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 78
+			},
+			{
+				"file" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 28,
+				"line" : 23,
+				"parent" : 80
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 81
+			},
+			{
+				"file" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 29,
+				"line" : 4,
+				"parent" : 83
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 84
+			},
+			{
+				"file" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 30,
+				"line" : 14,
+				"parent" : 86
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 87
+			},
+			{
+				"file" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 31,
+				"line" : 4,
+				"parent" : 89
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 90
+			},
+			{
+				"file" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 4,
+				"parent" : 92
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 93
+			},
+			{
+				"file" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 33,
+				"line" : 4,
+				"parent" : 95
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 96
+			},
+			{
+				"file" : 34
+			},
+			{
+				"command" : 3,
+				"file" : 34,
+				"line" : 4,
+				"parent" : 98
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 99
+			},
+			{
+				"file" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 35,
+				"line" : 4,
+				"parent" : 101
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 102
+			},
+			{
+				"file" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 36,
+				"line" : 4,
+				"parent" : 104
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 105
+			},
+			{
+				"file" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 37,
+				"line" : 4,
+				"parent" : 107
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 108
+			},
+			{
+				"file" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 38,
+				"line" : 4,
+				"parent" : 110
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 111
+			},
+			{
+				"file" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 4,
+				"parent" : 113
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 114
+			},
+			{
+				"file" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 40,
+				"line" : 4,
+				"parent" : 116
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 117
+			},
+			{
+				"file" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 41,
+				"line" : 4,
+				"parent" : 119
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 120
+			},
+			{
+				"file" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 4,
+				"parent" : 122
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 123
+			},
+			{
+				"file" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 43,
+				"line" : 4,
+				"parent" : 125
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 126
+			},
+			{
+				"file" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 44,
+				"line" : 4,
+				"parent" : 128
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 129
+			},
+			{
+				"file" : 45
+			},
+			{
+				"command" : 3,
+				"file" : 45,
+				"line" : 4,
+				"parent" : 131
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 132
+			},
+			{
+				"file" : 46
+			},
+			{
+				"command" : 3,
+				"file" : 46,
+				"line" : 4,
+				"parent" : 134
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 135
+			},
+			{
+				"file" : 47
+			},
+			{
+				"command" : 3,
+				"file" : 47,
+				"line" : 4,
+				"parent" : 137
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 138
+			},
+			{
+				"file" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 48,
+				"line" : 4,
+				"parent" : 140
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 141
+			},
+			{
+				"file" : 49
+			},
+			{
+				"command" : 3,
+				"file" : 49,
+				"line" : 4,
+				"parent" : 143
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 144
+			},
+			{
+				"file" : 50
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 4,
+				"parent" : 146
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 147
+			},
+			{
+				"file" : 51
+			},
+			{
+				"command" : 3,
+				"file" : 51,
+				"line" : 4,
+				"parent" : 149
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 150
+			},
+			{
+				"file" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 52,
+				"line" : 4,
+				"parent" : 152
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 153
+			},
+			{
+				"file" : 53
+			},
+			{
+				"command" : 3,
+				"file" : 53,
+				"line" : 4,
+				"parent" : 155
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 156
+			},
+			{
+				"file" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 54,
+				"line" : 4,
+				"parent" : 158
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 159
+			},
+			{
+				"file" : 55
+			},
+			{
+				"command" : 3,
+				"file" : 55,
+				"line" : 1,
+				"parent" : 161
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 162
+			},
+			{
+				"file" : 56
+			},
+			{
+				"command" : 3,
+				"file" : 56,
+				"line" : 1,
+				"parent" : 164
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 165
+			},
+			{
+				"file" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 57,
+				"line" : 3,
+				"parent" : 167
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 168
+			},
+			{
+				"file" : 58
+			},
+			{
+				"command" : 3,
+				"file" : 58,
+				"line" : 18,
+				"parent" : 170
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2228,
+				"parent" : 171
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "swiftIntents-macosx::@356b097d9661cef417ef"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "swiftMapKit-macosx::@1640ba00c42af74e5206"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "swiftMetal-macosx::@0181ab70d6907a30b075"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "swiftPhotos-macosx::@2b1aa71136b2050263f2"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "swiftVision-macosx::@c52d4f5503409703725c"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "swiftXCTest-macosx::@09a839a48ff655400c6b"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "swiftXPC-macosx::@8d4953b56deb000c4c54"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "swiftSwiftPrivate-macosx::@f4c7d47d8c4eae40f004"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "swiftRuntimeUnittest-macosx::@e4858f45a0dc6c3035cb"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "swiftStdlibUnicodeUnittest-macosx::@1423b81b72e5601fc3fe"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "swiftStdlibCollectionUnittest-macosx::@2ee1f048f1d8c19984ed"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "swiftSwiftPrivateLibcExtras-macosx::@9fcefb7672ba1ade73f6"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "swiftSwiftPrivateThreadExtras-macosx::@d3207933df9d54f1d08e"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "swiftStdlibUnittest-macosx::@6290baf9dc5684424f08"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "swiftOpenCL-macosx::@0f9e8fe60f0e61497766"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "swiftos-macosx::@8f799a64c637245facd6"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "swiftQuartzCore-macosx::@d01691779f6b6cee2b9f"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "swiftSafariServices-macosx::@7ed4e49a104f348955ff"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "swiftSceneKit-macosx::@d55ef6f69f120955c408"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "swiftsimd-macosx::@3699569e16270c202013"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "swiftSpriteKit-macosx::@844494d71951af233cd5"
+		},
+		{
+			"backtrace" : 67,
+			"id" : "copy-legacy-layouts-macosx-x86_64::@1688437938783f9daaa2"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "swiftCompatibility50-macosx::@3b768fb5b5de2f73525f"
+		},
+		{
+			"backtrace" : 73,
+			"id" : "swiftCompatibilityDynamicReplacements-macosx::@c7a9ffa77d16ac7b3612"
+		},
+		{
+			"backtrace" : 76,
+			"id" : "swiftCore-macosx::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "swiftSwiftOnoneSupport-macosx::@363e3ee309a2fe38b1ac"
+		},
+		{
+			"backtrace" : 82,
+			"id" : "swiftReflection-macosx::@0ec21796aca99e408fdc"
+		},
+		{
+			"backtrace" : 85,
+			"id" : "swiftRemoteMirror-macosx::@bb44e1fefa25fac0789b"
+		},
+		{
+			"backtrace" : 88,
+			"id" : "swiftDarwin-macosx::@47dcd97854f962eca51e"
+		},
+		{
+			"backtrace" : 91,
+			"id" : "swiftAccelerate-macosx::@2a7c0cc1f846c72194c3"
+		},
+		{
+			"backtrace" : 94,
+			"id" : "swiftAppKit-macosx::@8f303a8f316ccf61cd63"
+		},
+		{
+			"backtrace" : 97,
+			"id" : "swiftAVFoundation-macosx::@22431535633ddb6a8a23"
+		},
+		{
+			"backtrace" : 100,
+			"id" : "swiftCloudKit-macosx::@d969c5d89dee4e0bc113"
+		},
+		{
+			"backtrace" : 103,
+			"id" : "swiftCompression-macosx::@d4485021cc3d6d5b5981"
+		},
+		{
+			"backtrace" : 106,
+			"id" : "swiftContacts-macosx::@8eb16b973a99f3c2386e"
+		},
+		{
+			"backtrace" : 109,
+			"id" : "swiftCoreAudio-macosx::@4aa8fc5481a83ac770a8"
+		},
+		{
+			"backtrace" : 112,
+			"id" : "swiftCoreData-macosx::@d0c90cb2366b0fc4a15b"
+		},
+		{
+			"backtrace" : 115,
+			"id" : "swiftCoreFoundation-macosx::@ef5802b013f8fa390af2"
+		},
+		{
+			"backtrace" : 118,
+			"id" : "swiftCoreGraphics-macosx::@bde03aba38f0481f6fd4"
+		},
+		{
+			"backtrace" : 121,
+			"id" : "swiftCoreImage-macosx::@13ca7b8ce366165633e4"
+		},
+		{
+			"backtrace" : 124,
+			"id" : "swiftCoreLocation-macosx::@e9f76e8bdd826366523e"
+		},
+		{
+			"backtrace" : 127,
+			"id" : "swiftCoreMedia-macosx::@2f7c9e05f9000395e9d2"
+		},
+		{
+			"backtrace" : 130,
+			"id" : "swiftCryptoTokenKit-macosx::@35d85e50efb12a7cea51"
+		},
+		{
+			"backtrace" : 133,
+			"id" : "swiftDispatch-macosx::@ec256521822c5d5880c4"
+		},
+		{
+			"backtrace" : 136,
+			"id" : "swiftFoundation-macosx::@73e9439245df1ef22f97"
+		},
+		{
+			"backtrace" : 139,
+			"id" : "swiftGameplayKit-macosx::@c9636452bbb15bc070fa"
+		},
+		{
+			"backtrace" : 142,
+			"id" : "swiftGLKit-macosx::@4743837295a016dc00ad"
+		},
+		{
+			"backtrace" : 145,
+			"id" : "swiftIOKit-macosx::@186f10402e6ebb136889"
+		},
+		{
+			"backtrace" : 148,
+			"id" : "swiftNaturalLanguage-macosx::@4aa261073d874364eae9"
+		},
+		{
+			"backtrace" : 151,
+			"id" : "swiftMetalKit-macosx::@11b87470abbfd785cbf6"
+		},
+		{
+			"backtrace" : 154,
+			"id" : "swiftModelIO-macosx::@492afe7c3fd7189469dd"
+		},
+		{
+			"backtrace" : 157,
+			"id" : "swiftObjectiveC-macosx::@04f72e5cc33e98c3d08d"
+		},
+		{
+			"backtrace" : 160,
+			"id" : "swiftNetwork-macosx::@6290b0dcb7c543ea212f"
+		},
+		{
+			"backtrace" : 163,
+			"id" : "swiftOSLogPrototype-macosx::@356a57a26f94b4baebaf"
+		},
+		{
+			"backtrace" : 166,
+			"id" : "swiftStdlibUnittestFoundationExtras-macosx::@477f3913e1feaaac23a0"
+		},
+		{
+			"backtrace" : 169,
+			"id" : "swiftSwiftReflectionTest-macosx::@91380118c18e757ad6d4"
+		},
+		{
+			"backtrace" : 172,
+			"id" : "swiftSwiftLang-macosx::@e8b6e5f238e6943b96e6"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries/Aggregate"
+	},
+	"id" : "swift-stdlib-macosx-x86_64::@4b0dc26f9ca3c8b0306f",
+	"name" : "swift-stdlib-macosx-x86_64",
+	"paths" : 
+	{
+		"build" : "stdlib",
+		"source" : "stdlib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

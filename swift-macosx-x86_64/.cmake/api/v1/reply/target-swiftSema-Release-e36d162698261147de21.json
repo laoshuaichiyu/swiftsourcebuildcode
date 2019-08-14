@@ -1,0 +1,1005 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/lib/libswiftSema.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_host_library",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"target_link_libraries",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"lib/Sema/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 18
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 54,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 744,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 745,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 746,
+				"parent" : 21
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -O3    -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/lib/Sema"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/Sema"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftMarkup::@ffee834c526e61b86706"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftParse::@fa4c3ce477f876cb8957"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftSerialization::@615434d8f1a937df5f21"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftSyntax::@5bbc7d79c07d98d9d91b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-parse-syntax-generated-headers::@50dc68b246b3639a8224"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftClangImporter::@6bb0f6b0d924eac9e33d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftSema::@f38d7dc148d4b2b8fdb2",
+	"name" : "swiftSema",
+	"nameOnDisk" : "libswiftSema.a",
+	"paths" : 
+	{
+		"build" : "lib/Sema",
+		"source" : "lib/Sema"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				60,
+				63
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				59,
+				61,
+				62,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/BuilderTransform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSApply.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSBindings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSDiag.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSGen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSRanking.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSSimplify.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSSolver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSStep.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSFix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CSDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CalleeCandidateInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/CodeSynthesis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/Constraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/ConstraintGraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/ConstraintLocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/ConstraintSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DebuggerTestingTransform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceCaseIterable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceCodable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceCodingKey.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceEquatableHashable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceError.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformanceRawRepresentable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/DerivedConformances.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/InstrumenterSupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/LookupVisibleDecls.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/MiscDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/NameBinding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/PCMacro.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/PlaygroundTransform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/ResilienceDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/SourceLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckAccess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckAttr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckAvailability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckCaptures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckCircularity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckConstraints.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckDecl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckDeclObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckDeclOverride.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckError.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckExpr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckExprObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckGeneric.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckNameLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckPattern.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckPropertyWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckProtocol.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckProtocolInference.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckREPL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckRequestFunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckStmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckStorage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckSwitchStmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeCheckType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/TypeChecker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Sema/IDETypeCheckingRequests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Sema/IDETypeChecking.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Sema/IDETypeCheckingRequestIDZone.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Sema/IDETypeCheckingRequests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Sema/SourceLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/ConstraintSolverStats.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CSDiag.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CSDiagnostics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CSFix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CSStep.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CalleeCandidateInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/CodeSynthesis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/Constraint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/ConstraintGraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/ConstraintGraphScope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/ConstraintLocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/ConstraintSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/DerivedConformances.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/InstrumenterSupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/MiscDiagnostics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/OverloadChoice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeAccessScopeChecker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckAccess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckAvailability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckDecl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckObjC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckProtocol.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeCheckType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypeChecker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Sema/TypoCorrection.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

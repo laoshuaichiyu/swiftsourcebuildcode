@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/stubs/CommandLine.cpp \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/Debug.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/Config.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include/swift/Runtime/CMakeConfig.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/BackDeployment.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/Visibility.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/Unreachable.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/stubs/../SwiftShims/RuntimeStubs.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/LibcShims.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/SwiftStdint.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/SwiftStddef.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/stubs/../SwiftShims/GlobalObjects.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/SwiftStdbool.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/HeapObject.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/RefCount.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include/llvm/Support/Compiler.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include/llvm/Config/llvm-config.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Basic/type_traits.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Basic/Compiler.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/Atomic.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/System.h \
+  /Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Runtime/../../../stdlib/public/SwiftShims/Target.h

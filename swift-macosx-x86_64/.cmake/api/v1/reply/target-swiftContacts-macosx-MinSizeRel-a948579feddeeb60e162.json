@@ -1,0 +1,109 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"_add_swift_lipo_target",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/Darwin/Contacts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2080,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 631,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swiftContacts-macosx-x86_64::@8eb16b973a99f3c2386e"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "swiftContacts-macosx::@8eb16b973a99f3c2386e",
+	"name" : "swiftContacts-macosx",
+	"paths" : 
+	{
+		"build" : "stdlib/public/Darwin/Contacts",
+		"source" : "stdlib/public/Darwin/Contacts"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/Contacts/CMakeFiles/swiftContacts-macosx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/Contacts/CMakeFiles/swiftContacts-macosx.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/lib/swift/macosx/libswiftContacts.dylib.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

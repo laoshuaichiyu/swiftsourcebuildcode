@@ -1,0 +1,3 @@
+#!/bin/bash
+
+lldb -O 'command script import "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/utils/lldb/lldbToolBox.py"' $@

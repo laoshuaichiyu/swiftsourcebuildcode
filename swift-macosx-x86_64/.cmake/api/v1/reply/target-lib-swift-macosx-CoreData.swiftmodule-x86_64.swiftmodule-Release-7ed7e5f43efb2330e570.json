@@ -1,0 +1,154 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"_compile_swift_files",
+			"handle_swift_sources",
+			"_add_swift_library_single",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"cmake/modules/SwiftSource.cmake",
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/Darwin/CoreData/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 485,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swiftXPC-swiftmodule-macosx-x86_64::@8d4953b56deb000c4c54"
+		},
+		{
+			"id" : "swiftCore-swiftmodule-macosx-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "swiftDarwin-swiftmodule-macosx-x86_64::@47dcd97854f962eca51e"
+		},
+		{
+			"id" : "stdlib-public-Darwin-CoreData-OSX-x86_64::@d0c90cb2366b0fc4a15b"
+		},
+		{
+			"id" : "swiftCoreFoundation-swiftmodule-macosx-x86_64::@ef5802b013f8fa390af2"
+		},
+		{
+			"id" : "swiftCoreGraphics-swiftmodule-macosx-x86_64::@bde03aba38f0481f6fd4"
+		},
+		{
+			"id" : "swiftDispatch-swiftmodule-macosx-x86_64::@ec256521822c5d5880c4"
+		},
+		{
+			"id" : "swiftFoundation-swiftmodule-macosx-x86_64::@73e9439245df1ef22f97"
+		},
+		{
+			"id" : "swiftIOKit-swiftmodule-macosx-x86_64::@186f10402e6ebb136889"
+		},
+		{
+			"id" : "swiftObjectiveC-swiftmodule-macosx-x86_64::@04f72e5cc33e98c3d08d"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "lib-swift-macosx-CoreData.swiftmodule-x86_64.swiftmodule::@d0c90cb2366b0fc4a15b",
+	"name" : "lib-swift-macosx-CoreData.swiftmodule-x86_64.swiftmodule",
+	"paths" : 
+	{
+		"build" : "stdlib/public/Darwin/CoreData",
+		"source" : "stdlib/public/Darwin/CoreData"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData/CMakeFiles/lib-swift-macosx-CoreData.swiftmodule-x86_64.swiftmodule",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData/CMakeFiles/lib-swift-macosx-CoreData.swiftmodule-x86_64.swiftmodule.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/lib/swift/macosx/CoreData.swiftmodule/x86_64.swiftmodule.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

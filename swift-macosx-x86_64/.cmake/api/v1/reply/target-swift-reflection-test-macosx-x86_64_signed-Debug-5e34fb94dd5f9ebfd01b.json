@@ -1,0 +1,102 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"add_swift_target_executable"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"stdlib/cmake/modules/AddSwiftStdlib.cmake",
+			"stdlib/tools/swift-reflection-test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swift-reflection-test-macosx-x86_64::@333e539df74fb39d7f5b"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "swift-reflection-test-macosx-x86_64_signed::@333e539df74fb39d7f5b",
+	"name" : "swift-reflection-test-macosx-x86_64_signed",
+	"paths" : 
+	{
+		"build" : "stdlib/tools/swift-reflection-test",
+		"source" : "stdlib/tools/swift-reflection-test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/tools/swift-reflection-test/CMakeFiles/swift-reflection-test-macosx-x86_64_signed",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/tools/swift-reflection-test/CMakeFiles/swift-reflection-test-macosx-x86_64_signed.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/bin/swift-reflection-test-macosx-x86_64_signed.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

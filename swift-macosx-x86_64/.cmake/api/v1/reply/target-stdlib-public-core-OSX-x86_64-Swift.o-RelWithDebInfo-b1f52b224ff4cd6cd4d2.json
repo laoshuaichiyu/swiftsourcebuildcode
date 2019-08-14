@@ -1,0 +1,273 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"_compile_swift_files",
+			"handle_swift_sources",
+			"_add_swift_library_single",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"cmake/modules/SwiftSource.cmake",
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "copy-legacy-layouts-macosx-x86_64::@1688437938783f9daaa2"
+		},
+		{
+			"id" : "copy_shim_headers::@1011a02df628513226f8"
+		},
+		{
+			"id" : "stdlib-public-core-8-Tuple.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-OSX-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-UnsafeBufferPointer.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-SIMDVectorTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-UnsafeRawBufferPointer.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-UnavailableStringAPIs.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-Runtime.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-IntegerTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-MathFunctions.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-Mirrors.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-ExistentialCollection.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-FloatingPointTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-FloatingPointParsing.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-Codable.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-8-AtomicInt.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "stdlib-public-core-OSX-x86_64-Swift.o::@8e81d50576416fe5b648",
+	"name" : "stdlib-public-core-OSX-x86_64-Swift.o",
+	"paths" : 
+	{
+		"build" : "stdlib/public/core",
+		"source" : "stdlib/public/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/CMakeFiles/stdlib-public-core-OSX-x86_64-Swift.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/CMakeFiles/stdlib-public-core-OSX-x86_64-Swift.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/OSX/x86_64/Swift.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/AtomicInt.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Codable.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointParsing.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointTypes.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/IntegerTypes.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Mirrors.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Runtime.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnavailableStringAPIs.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeBufferPointer.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeRawBufferPointer.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/ExistentialCollection.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/MathFunctions.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/SIMDVectorTypes.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Tuple.swift.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

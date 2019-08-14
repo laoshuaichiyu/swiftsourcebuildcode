@@ -1,0 +1,125 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"handle_gyb_source_single",
+			"handle_gyb_sources",
+			"add_gyb_target"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"cmake/modules/SwiftHandleGybSources.cmake",
+			"tools/SourceKit/include/SourceKit/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 171,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "tools-SourceKit-include-SourceKit-Core-ProtocolUIDs.def::@6f9c4bf988b01ea97fa0",
+	"name" : "tools-SourceKit-include-SourceKit-Core-ProtocolUIDs.def",
+	"paths" : 
+	{
+		"build" : "tools/SourceKit/include/SourceKit/Core",
+		"source" : "tools/SourceKit/include/SourceKit/Core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include/SourceKit/Core/CMakeFiles/tools-SourceKit-include-SourceKit-Core-ProtocolUIDs.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "tools/SourceKit/include/SourceKit/Core/ProtocolUIDs.def.gyb",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include/SourceKit/Core/CMakeFiles/tools-SourceKit-include-SourceKit-Core-ProtocolUIDs.def.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include/SourceKit/Core/ProtocolUIDs.def.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "UTILITY"
+}

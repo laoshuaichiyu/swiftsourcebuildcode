@@ -1,0 +1,1820 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/lib/libswiftAST.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_host_library",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"target_link_libraries",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"lib/AST/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 18
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 54,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 744,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 745,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 746,
+				"parent" : 21
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -g   -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/lib/AST"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/AST"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -g   -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS "
+				},
+				{
+					"fragment" : " -USWIFT_DISABLE_AST_VERIFIER"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/lib/AST"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/AST"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftMarkup::@ffee834c526e61b86706"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftSyntax::@5bbc7d79c07d98d9d91b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-parse-syntax-generated-headers::@50dc68b246b3639a8224"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftAST::@c80eb5e9fa4fb9ab07bc",
+	"name" : "swiftAST",
+	"nameOnDisk" : "libswiftAST.a",
+	"paths" : 
+	{
+		"build" : "lib/AST",
+		"source" : "lib/AST"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				70,
+				76,
+				77,
+				80,
+				85,
+				97,
+				102,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				127,
+				140,
+				141,
+				142,
+				143,
+				145,
+				154,
+				155,
+				159,
+				161,
+				170,
+				180,
+				190,
+				195,
+				199
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				71,
+				72,
+				73,
+				74,
+				75,
+				78,
+				79,
+				81,
+				82,
+				83,
+				84,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				98,
+				99,
+				100,
+				101,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				123,
+				124,
+				125,
+				126,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				144,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				156,
+				157,
+				158,
+				160,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				191,
+				192,
+				193,
+				194,
+				196,
+				197,
+				198,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/AccessRequests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTDemangler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTDumper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTMangler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTPrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTScope.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTScopeCreation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTScopeLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTScopePrinting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTScopeSourceRange.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "lib/AST/ASTVerifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ASTWalker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Attr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Availability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/AvailabilitySpec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Builtins.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/CaptureInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ConcreteDeclRef.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ConformanceLookupTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Decl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DeclContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DeclNameLoc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DiagnosticConsumer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DiagnosticEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DiagnosticList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/DocComment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Evaluator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ExperimentalDependencies.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ExperimentalDependenciesSourceFileDepGraphConstructor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Expr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/GenericEnvironment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/GenericSignature.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/GenericSignatureBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Identifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/InlinableText.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/LayoutConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ModuleLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ModuleNameLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/NameLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/NameLookupRequests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Parameter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Pattern.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/PlatformKind.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/PrettyStackTrace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/ProtocolConformance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/RawComment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/RequirementEnvironment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/SyntaxASTMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/SILLayout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Stmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/SubstitutionMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/SwiftNameTranslation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/Type.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeCheckRequests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeDeclFinder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeJoinMeet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeRefinementContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeRepr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/TypeWalker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/UnqualifiedLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/AST/USRGeneration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTDemangler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTMangler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTPrinter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTScope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTTypeIDZone.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTTypeIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ASTWalker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AccessRequests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AccessScope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AccessTypeIDZone.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AccessorKinds.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AnyFunctionRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AnyRequest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Attr.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Attr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AttrKind.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Availability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/AvailabilitySpec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Builtins.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Builtins.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/CanTypeVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/CaptureInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ClangModuleLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ClangNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Comment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ConcreteDeclRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DebuggerClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Decl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DeclContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DeclNameLoc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DeclNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DefaultArgumentKind.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticConsumer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticEngine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticSuppression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsAll.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsClangImporter.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsClangImporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsCommon.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsCommon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsDriver.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsDriver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsFrontend.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsFrontend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsIRGen.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsIRGen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsModuleDiffer.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsModuleDiffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsParse.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsParse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsRefactoring.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsRefactoring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsSIL.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsSIL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsSema.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/DiagnosticsSema.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Evaluator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ExistentialLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ExperimentalDependencies.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Expr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ExprNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/FileSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ForeignErrorConvention.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ForeignInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/FunctionRefKind.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/GenericEnvironment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/GenericParamKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/GenericSignature.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/GenericSignatureBuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/IRGenOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Identifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/IfConfigClause.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Initializer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownDecls.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownFoundationEntities.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownIdentifiers.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownProtocols.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownProtocols.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/KnownStdlibTypes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/LayoutConstraint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/LazyResolver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/LinkLibrary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/LookupKinds.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Module.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ModuleLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/NameLookup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/NameLookupRequests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/NameLookupTypeIDZone.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ObjCSelectorFamily.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Ownership.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ParameterList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Pattern.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PatternNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PlatformKind.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PlatformKinds.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PrettyStackTrace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PrintOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/PropertyWrappers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ProtocolAssociations.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ProtocolConformance.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ProtocolConformanceRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/RawComment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ReferenceCounting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ReferenceStorage.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ReferencedNameTracker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Requirement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/RequirementEnvironment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/ResilienceExpansion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SILLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SILOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SearchPathOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SimpleRequest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Stmt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/StmtNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/StorageImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SubstitutionMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SwiftNameTranslation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/SyntaxASTMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TrailingCallArguments.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Type.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeAlignments.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeCheckRequests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeCheckerDebugConsumer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeCheckerTypeIDZone.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeDeclFinder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeLoc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeMatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeMemberVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeOrExtensionDecl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeRefinementContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeRepr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeReprNodes.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeResolutionStage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/TypeWalker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/USRGeneration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/AST/Witness.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/AST/ConformanceLookupTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/AST/ForeignRepresentationInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/AST/GenericSignatureBuilderImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/AST/InlinableText.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/AST/SubstitutionMapStorage.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

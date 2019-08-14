@@ -1,0 +1,663 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MinSizeRel/lib/swift/macosx/x86_64/libswiftCoreData.dylib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_target_library",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_compile_definitions",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/Darwin/CoreData/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"stdlib/CMakeLists.txt",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1395,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 5
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 18
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 72,
+				"parent" : 20
+			},
+			{
+				"command" : 15,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 10
+			},
+			{
+				"file" : 6,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 54,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 744,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 745,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 746,
+				"parent" : 23
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -Os  -fPIC   -UNDEBUG  -DSWIFT_TARGET_LIBRARY_NAME=swiftCoreData -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1  '-fno-sanitize=all'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "swiftCoreData_macosx_x86_64_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion -Os  -fPIC   -UNDEBUG  -DSWIFT_TARGET_LIBRARY_NAME=swiftCoreData -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1  '-fno-sanitize=all'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "swiftCoreData_macosx_x86_64_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -Os  -fPIC   -UNDEBUG  -DSWIFT_TARGET_LIBRARY_NAME=swiftCoreData -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1  '-fno-sanitize=all'"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "swiftCoreData_macosx_x86_64_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/Darwin/CoreData"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "swiftXPC-macosx-x86_64::@8d4953b56deb000c4c54"
+		},
+		{
+			"id" : "swiftXPC-swiftmodule-macosx-x86_64::@8d4953b56deb000c4c54"
+		},
+		{
+			"id" : "swiftCore-swiftmodule-macosx-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftCore-macosx-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftDarwin-macosx-x86_64::@47dcd97854f962eca51e"
+		},
+		{
+			"id" : "swiftDarwin-swiftmodule-macosx-x86_64::@47dcd97854f962eca51e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "lib-swift-macosx-CoreData.swiftmodule-x86_64.swiftmodule::@d0c90cb2366b0fc4a15b"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "stdlib-public-Darwin-CoreData-OSX-x86_64-CoreData.o::@d0c90cb2366b0fc4a15b"
+		},
+		{
+			"id" : "stdlib-public-Darwin-CoreData-OSX-x86_64::@d0c90cb2366b0fc4a15b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftCoreFoundation-macosx-x86_64::@ef5802b013f8fa390af2"
+		},
+		{
+			"id" : "swiftCoreFoundation-swiftmodule-macosx-x86_64::@ef5802b013f8fa390af2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftCoreGraphics-macosx-x86_64::@bde03aba38f0481f6fd4"
+		},
+		{
+			"id" : "swiftCoreGraphics-swiftmodule-macosx-x86_64::@bde03aba38f0481f6fd4"
+		},
+		{
+			"id" : "swiftDispatch-swiftmodule-macosx-x86_64::@ec256521822c5d5880c4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftDispatch-macosx-x86_64::@ec256521822c5d5880c4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftFoundation-macosx-x86_64::@73e9439245df1ef22f97"
+		},
+		{
+			"id" : "swiftFoundation-swiftmodule-macosx-x86_64::@73e9439245df1ef22f97"
+		},
+		{
+			"id" : "swiftIOKit-swiftmodule-macosx-x86_64::@186f10402e6ebb136889"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftIOKit-macosx-x86_64::@186f10402e6ebb136889"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftObjectiveC-macosx-x86_64::@04f72e5cc33e98c3d08d"
+		},
+		{
+			"id" : "swiftObjectiveC-swiftmodule-macosx-x86_64::@04f72e5cc33e98c3d08d"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftCoreData-macosx-x86_64::@d0c90cb2366b0fc4a15b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-dynamiclib\\ -Wl,-headerpad_max_install_names -Xlinker -compatibility_version -Xlinker 1 -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -Wl,-dead_strip -Wl,-sectcreate,__TEXT,__info_plist,/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData/Info.plist -Wl,-application_extension  \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/lib/swift/macosx/x86_64\" \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/bin/../lib/swift/macosx/x86_64\" \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/bin/../lib/swift/macosx\"",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-framework CoreData ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftFoundation.dylib ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftXPC.dylib ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftCoreGraphics.dylib -framework CoreGraphics ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftIOKit.dylib -framework IOKit ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftCoreFoundation.dylib ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftCore.dylib ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftDarwin.dylib ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftDispatch.dylib -framework CoreFoundation ../../../../MinSizeRel/lib/swift/macosx/x86_64/libswiftObjectiveC.dylib -framework Foundation",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "swiftCoreData-macosx-x86_64",
+	"nameOnDisk" : "libswiftCoreData.dylib",
+	"paths" : 
+	{
+		"build" : "stdlib/public/Darwin/CoreData",
+		"source" : "stdlib/public/Darwin/CoreData"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5
+			]
+		},
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "Swift Sources",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "stdlib/public/Darwin/CoreData/CoreData.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "stdlib/linker-support/magic-symbols-for-install-name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData/OSX/x86_64/CoreData.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/Darwin/CoreData/CocoaError.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/Darwin/CoreData/NSManagedObjectContext.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "cmake/dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/CoreData/OSX/x86_64/CoreData.o.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

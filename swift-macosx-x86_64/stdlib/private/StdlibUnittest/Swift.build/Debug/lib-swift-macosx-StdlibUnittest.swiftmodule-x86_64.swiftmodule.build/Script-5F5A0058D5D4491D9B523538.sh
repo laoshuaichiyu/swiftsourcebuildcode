@@ -1,0 +1,2 @@
+#!/bin/sh
+make -C /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/private/StdlibUnittest -f /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/private/StdlibUnittest/CMakeScripts/lib-swift-macosx-StdlibUnittest.swiftmodule-x86_64.swiftmodule_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename "$OBJECT_FILE_DIR_normal") all

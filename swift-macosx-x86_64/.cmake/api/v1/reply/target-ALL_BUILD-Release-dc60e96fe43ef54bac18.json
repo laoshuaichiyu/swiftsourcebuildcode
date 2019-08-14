@@ -1,0 +1,85 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"stdlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swift-test-stdlib::@4b0dc26f9ca3c8b0306f"
+		},
+		{
+			"id" : "copy-legacy-layouts::@1688437938783f9daaa2"
+		},
+		{
+			"id" : "swiftCompatibility50-macosx::@3b768fb5b5de2f73525f"
+		},
+		{
+			"id" : "swiftCompatibilityDynamicReplacements-macosx::@c7a9ffa77d16ac7b3612"
+		},
+		{
+			"id" : "swiftReflection::@0ec21796aca99e408fdc"
+		},
+		{
+			"id" : "swiftRemoteMirror::@bb44e1fefa25fac0789b"
+		},
+		{
+			"id" : "swift-reflection-test-macosx-x86_64::@333e539df74fb39d7f5b"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"id" : "ALL_BUILD::@4b0dc26f9ca3c8b0306f",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "stdlib",
+		"source" : "stdlib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/CMakeFiles/ALL_BUILD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/CMakeFiles/ALL_BUILD.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

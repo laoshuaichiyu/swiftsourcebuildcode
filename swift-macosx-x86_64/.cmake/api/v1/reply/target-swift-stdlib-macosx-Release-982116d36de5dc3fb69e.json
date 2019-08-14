@@ -1,0 +1,63 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"swift_create_stdlib_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"stdlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "swift-stdlib-macosx-x86_64::@4b0dc26f9ca3c8b0306f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries/Aggregate"
+	},
+	"id" : "swift-stdlib-macosx::@4b0dc26f9ca3c8b0306f",
+	"name" : "swift-stdlib-macosx",
+	"paths" : 
+	{
+		"build" : "stdlib",
+		"source" : "stdlib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

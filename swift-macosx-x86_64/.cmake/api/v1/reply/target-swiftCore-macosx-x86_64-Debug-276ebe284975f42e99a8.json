@@ -1,0 +1,2236 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/lib/swift/macosx/x86_64/libswiftCore.dylib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_target_library",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_compile_definitions",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/core/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"stdlib/CMakeLists.txt",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 17
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 72,
+				"parent" : 19
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 9
+			},
+			{
+				"file" : 6,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 54,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 744,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 745,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 746,
+				"parent" : 22
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion -g -fPIC   -UNDEBUG  -DSWIFT_TARGET_LIBRARY_NAME=swiftCore -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1  '-fno-sanitize=all'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "swiftCore_macosx_x86_64_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -g -fPIC   -UNDEBUG  -DSWIFT_TARGET_LIBRARY_NAME=swiftCore -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1  '-fno-sanitize=all'"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "swiftCore_macosx_x86_64_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/stdlib/public/core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				252
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "copy-legacy-layouts-macosx-x86_64::@1688437938783f9daaa2"
+		},
+		{
+			"id" : "copy_shim_headers::@1011a02df628513226f8"
+		},
+		{
+			"id" : "swiftRuntime-macosx-x86_64::@bdbb45996171c7edb93f"
+		},
+		{
+			"id" : "swiftStdlibStubs-macosx-x86_64::@48aaf026eedc649c2c73"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-Tuple.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-core-OSX-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lib-swift-macosx-Swift.swiftmodule-x86_64.swiftmodule::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-UnsafeBufferPointer.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-SIMDVectorTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-UnsafeRawBufferPointer.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-UnavailableStringAPIs.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-OSX-x86_64-Swift.o::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-Runtime.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-IntegerTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-MathFunctions.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-Mirrors.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-ExistentialCollection.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-FloatingPointTypes.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-FloatingPointParsing.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-Codable.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stdlib-public-core-8-AtomicInt.swift::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftCore-macosx-x86_64::@8e81d50576416fe5b648",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-all_load -dynamiclib\\ -Wl,-headerpad_max_install_names -Xlinker -compatibility_version -Xlinker 1 -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -Wl,-dead_strip -Wl,-sectcreate,__TEXT,__info_plist,/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/Info.plist -Wl,-application_extension  \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/lib/swift/macosx/x86_64\" \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/bin/../lib/swift/macosx/x86_64\" \"-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/bin/../lib/swift/macosx\"",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-framework Foundation -framework CoreFoundation -licucore",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "swiftCore-macosx-x86_64",
+	"nameOnDisk" : "libswiftCore.dylib",
+	"paths" : 
+	{
+		"build" : "stdlib/public/core",
+		"source" : "stdlib/public/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				252
+			]
+		},
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Swift Sources",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "stdlib/linker-support/magic-symbols-for-install-name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/OSX/x86_64/Swift.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Algorithm.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayBody.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayBufferProtocol.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayCast.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Array.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayShared.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArraySlice.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ArrayType.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ASCII.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Assert.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/AssertCommon.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/BidirectionalCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Bitset.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Bool.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/BridgeObjectiveC.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/BridgeStorage.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/BridgingBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Builtin.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Character.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CocoaArray.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Collection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CollectionAlgorithms.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Comparable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CompilerProtocols.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ContiguousArray.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ContiguouslyStored.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ClosedRange.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ContiguousArrayBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CString.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CTypes.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DebuggerSupport.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Dictionary.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DictionaryBridging.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DictionaryBuilder.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DictionaryCasting.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DictionaryStorage.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DictionaryVariant.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/DropWhile.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Dump.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/EmptyCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Equatable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ErrorType.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Filter.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/FixedArray.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/FlatMap.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Flatten.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/FloatingPoint.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Hashable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/AnyHashable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Hasher.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Hashing.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/HashTable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ICU.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Identifiable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Indices.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/InputStream.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/IntegerParsing.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Integers.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Join.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/KeyPath.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/KeyValuePairs.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/LazyCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/LazySequence.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/LegacyABI.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/LifetimeManager.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ManagedBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Map.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/MemoryLayout.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnicodeScalar.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Misc.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/MutableCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/NativeDictionary.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/NativeSet.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/NewtypeWrapper.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ObjectIdentifier.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Optional.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/OptionSet.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/OutputStream.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Pointer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Policy.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/PrefixWhile.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Print.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Random.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/RandomAccessCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Range.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/RangeReplaceableCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ReflectionMirror.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Repeat.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/REPL.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Result.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Reverse.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/RuntimeFunctionCounters.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SipHash.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Sequence.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SequenceAlgorithms.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Set.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetAlgebra.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetAnyHashableExtensions.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetBridging.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetBuilder.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetCasting.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetStorage.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SetVariant.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ShadowProtocols.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Shims.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Slice.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SmallString.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Sort.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StaticString.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Stride.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringHashable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/String.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringBreadcrumbs.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringBridge.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringCharacterView.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringComparable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringComparison.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringCreate.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringGuts.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringGutsSlice.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringGutsRangeReplaceable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringObject.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringProtocol.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringIndex.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringIndexConversions.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringInterpolation.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringLegacy.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringNormalization.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringRangeReplaceableCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringStorage.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringSwitch.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringTesting.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringUnicodeScalarView.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringUTF16View.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringUTF8View.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringUTF8Validation.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Substring.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SwiftNativeNSArray.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ThreadLocalStorage.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UIntBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnicodeEncoding.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnicodeHelpers.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnicodeParser.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnicodeScalarProperties.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CharacterProperties.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Unmanaged.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnmanagedOpaqueString.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnmanagedString.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnsafePointer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnsafeRawPointer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UTFEncoding.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UTF8.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UTF16.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UTF32.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Unicode.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/StringGraphemeBreaking.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/ValidUTF8Buffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/WriteBackMutableSlice.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/MigrationSupport.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Availability.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CollectionDifference.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CollectionOfOne.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Diffing.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Mirror.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/PlaygroundDisplay.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/CommandLine.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SliceBuffer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/SIMDVector.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/UnfoldSequence.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/VarArgs.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "stdlib/public/core/Zip.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/AtomicInt.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Codable.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointParsing.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointTypes.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/IntegerTypes.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Mirrors.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Runtime.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnavailableStringAPIs.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeBufferPointer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeRawBufferPointer.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/ExistentialCollection.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/MathFunctions.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/SIMDVectorTypes.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Tuple.swift",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/AnyHashableSupport.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Array.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/BackDeployment.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Casting.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/CompatibilityOverride.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/CygwinPort.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Demangle.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Enum.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ErrorObjectConstants.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ErrorObjectNative.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Errors.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ErrorDefaultImpls.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Exclusivity.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ExistentialContainer.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Heap.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/HeapObject.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ImageInspectionMachO.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ImageInspectionELF.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ImageInspectionCOFF.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/KeyPaths.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/KnownMetadata.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/LLVMSupport.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Metadata.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/MetadataLookup.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/MutexPThread.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/MutexWin32.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Numeric.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Once.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Portability.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ProtocolConformance.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/RefCount.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/RuntimeInvocationsTracking.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/SwiftDtoa.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/OldDemangler.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Demangler.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/NodePrinter.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Context.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ManglingUtils.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Punycode.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/NodeDumper.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ErrorObject.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/SwiftObject.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/SwiftValue.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ReflectionMirror.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ObjCRuntimeGetImageNameFromClass.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/OldRemangler.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Remangler.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/runtime/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftRuntime-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/dummy.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Assert.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/CommandLine.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/GlobalObjects.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/LibcShims.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Random.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Stubs.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/ThreadLocalStorage.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/MathStubs.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Availability.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/FoundationHelpers.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/OptionalBridgingHelper.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/Reflection.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/SwiftNativeNSXXXBaseARC.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/UnicodeNormalization.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/SwiftNativeNSXXXBase.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/stubs/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/swiftStdlibStubs-macosx-x86_64.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/dummy.o",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "cmake/dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/AtomicInt.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Codable.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointParsing.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointTypes.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/IntegerTypes.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Mirrors.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Runtime.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnavailableStringAPIs.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeBufferPointer.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeRawBufferPointer.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/ExistentialCollection.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/MathFunctions.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/SIMDVectorTypes.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/8/Tuple.swift.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/core/OSX/x86_64/Swift.o.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,423 @@
+#line 6 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+//// Automatically Generated From TokenKinds.def.gyb.
+//// Do Not Edit Directly!
+//===--- TokenKinds.def - Swift Tokenizer Metaprogramming -----------------===//
+//
+// This source file is part of the Swift.org open source project
+//
+// Copyright (c) 2014 - 2017 Apple Inc. and the Swift project authors
+// Licensed under Apache License v2.0 with Runtime Library Exception
+//
+// See https://swift.org/LICENSE.txt for license information
+// See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
+//
+//===----------------------------------------------------------------------===//
+///
+/// This file defines x-macros used for metaprogramming with lexer tokens.
+///
+/// TOKEN(name)
+///   KEYWORD(kw)
+///     SWIFT_KEYWORD(kw)
+///       DECL_KEYWORD(kw)
+///       STMT_KEYWORD(kw)
+///       EXPR_KEYWORD(kw)
+///       PAT_KEYWORD(kw)
+///     SIL_KEYWORD(kw)
+///   POUND_KEYWORD(kw)
+///     POUND_OBJECT_LITERAL(kw, desc, proto)
+///     POUND_CONFIG(kw)
+///     POUND_DIRECTIVE_KEYWORD(kw)
+///       POUND_COND_DIRECTIVE_KEYWORD(kw)
+///   PUNCTUATOR(name, str)
+///   LITERAL(name)
+///   MISC(name)
+///
+//===----------------------------------------------------------------------===//
+
+/// TOKEN(name)
+///   Expands by default for every token kind.
+#ifndef TOKEN
+#define TOKEN(name)
+#endif
+
+/// KEYWORD(kw)
+///   Expands by default for every Swift keyword and every SIL keyword, such as
+///   'if', 'else', 'sil_global', etc. If you only want to use Swift keywords
+///   see SWIFT_KEYWORD.
+#ifndef KEYWORD
+#define KEYWORD(kw) TOKEN(kw_ ## kw)
+#endif
+
+/// SWIFT_KEYWORD(kw)
+///   Expands for every Swift keyword.
+#ifndef SWIFT_KEYWORD
+#define SWIFT_KEYWORD(kw) KEYWORD(kw)
+#endif
+
+/// DECL_KEYWORD(kw)
+///   Expands for every Swift keyword that can be used in a declaration.
+#ifndef DECL_KEYWORD
+#define DECL_KEYWORD(kw) SWIFT_KEYWORD(kw)
+#endif
+
+/// STMT_KEYWORD(kw)
+///   Expands for every Swift keyword used in statement grammar.
+#ifndef STMT_KEYWORD
+#define STMT_KEYWORD(kw) SWIFT_KEYWORD(kw)
+#endif
+
+/// EXPR_KEYWORD(kw)
+///   Expands for every Swift keyword used in an expression, such as 'true',
+///   'false', and 'as'
+#ifndef EXPR_KEYWORD
+#define EXPR_KEYWORD(kw) SWIFT_KEYWORD(kw)
+#endif
+
+/// PAT_KEYWORD(kw)
+///   Expands for every Swift keyword used in a pattern, which is currently
+///   limited to '_'
+#ifndef PAT_KEYWORD
+#define PAT_KEYWORD(kw) SWIFT_KEYWORD(kw)
+#endif
+
+/// SIL_KEYWORD(kw)
+///   Expands for every SIL keyword. These are only keywords when parsing SIL.
+#ifndef SIL_KEYWORD
+#define SIL_KEYWORD(kw) KEYWORD(kw)
+#endif
+
+/// POUND_KEYWORD(kw)
+///   Every keyword prefixed with a '#'.
+#ifndef POUND_KEYWORD
+#define POUND_KEYWORD(kw) TOKEN(pound_ ## kw)
+#endif
+
+/// POUND_OBJECT_LITERAL(kw, desc, proto)
+///   Every keyword prefixed with a '#' representing an object literal.
+#ifndef POUND_OBJECT_LITERAL
+#define POUND_OBJECT_LITERAL(kw, desc, proto) POUND_KEYWORD(kw)
+#endif
+
+/// POUND_CONFIG(kw)
+///   Every keyword prefixed with a '#' representing a configuration.
+#ifndef POUND_CONFIG
+#define POUND_CONFIG(kw) POUND_KEYWORD(kw)
+#endif
+
+/// POUND_DIRECTIVE_KEYWORD(kw)
+///   Every keyword prefixed with a '#' that is a compiler control directive.
+#ifndef POUND_DIRECTIVE_KEYWORD
+#define POUND_DIRECTIVE_KEYWORD(kw) POUND_KEYWORD(kw)
+#endif
+
+/// POUND_COND_DIRECTIVE_KEYWORD(kw)
+///   Every keyword prefixed with a '#' that is part of conditional compilation
+///   control.
+#ifndef POUND_COND_DIRECTIVE_KEYWORD
+#define POUND_COND_DIRECTIVE_KEYWORD(kw) POUND_DIRECTIVE_KEYWORD(kw)
+#endif
+
+/// PUNCTUATOR(name, str)
+///   Expands for every Swift punctuator.
+///   \param name  The symbolic name of the punctuator, such as
+///                'l_paren' or 'arrow'.
+///   \param str   A string literal containing the spelling of the punctuator,
+///                such as '"("' or '"->"'.
+#ifndef PUNCTUATOR
+#define PUNCTUATOR(name, str) TOKEN(name)
+#endif
+
+/// LITERAL(name)
+///   Tokens representing literal values, e.g. 'integer_literal'.
+#ifndef LITERAL
+#define LITERAL(name) TOKEN(name)
+#endif
+
+/// MISC(name)
+///   Miscellaneous tokens, e.g. 'eof' and 'unknown'.
+#ifndef MISC
+#define MISC(name) TOKEN(name)
+#endif
+
+// Keywords that start decls.
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(associatedtype)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(class)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(deinit)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(enum)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(extension)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(func)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(import)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(init)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(inout)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(let)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(operator)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(precedencegroup)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(protocol)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(struct)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(subscript)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(typealias)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(var)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(fileprivate)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(internal)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(private)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(public)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+DECL_KEYWORD(static)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(defer)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(if)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(guard)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(do)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(repeat)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(else)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(for)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(in)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(while)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(return)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(break)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(continue)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(fallthrough)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(switch)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(case)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(default)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(where)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(catch)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+STMT_KEYWORD(throw)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(as)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(Any)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(false)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(is)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(nil)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(rethrows)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(super)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(self)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(Self)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(true)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(try)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+EXPR_KEYWORD(throws)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+KEYWORD(__FILE__)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+KEYWORD(__LINE__)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+KEYWORD(__COLUMN__)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+KEYWORD(__FUNCTION__)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+KEYWORD(__DSO_HANDLE__)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PAT_KEYWORD(_)
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(l_paren, "(")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(r_paren, ")")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(l_brace, "{")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(r_brace, "}")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(l_square, "[")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(r_square, "]")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(l_angle, "<")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(r_angle, ">")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(period, ".")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(period_prefix, ".")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(comma, ",")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(ellipsis, "...")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(colon, ":")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(semi, ";")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(equal, "=")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(at_sign, "@")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(pound, "#")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(amp_prefix, "&")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(arrow, "->")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(backtick, "`")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(backslash, "\\")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(exclaim_postfix, "!")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(question_postfix, "?")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(question_infix, "?")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(string_quote, "\"")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(single_quote, "\'")
+#line 149 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+PUNCTUATOR(multiline_string_quote, "\"\"\"")
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(keyPath)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(line)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(selector)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(file)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(column)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(function)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(dsohandle)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_KEYWORD(assert)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_DIRECTIVE_KEYWORD(sourceLocation)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_DIRECTIVE_KEYWORD(warning)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_DIRECTIVE_KEYWORD(error)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_COND_DIRECTIVE_KEYWORD(if)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_COND_DIRECTIVE_KEYWORD(else)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_COND_DIRECTIVE_KEYWORD(elseif)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_COND_DIRECTIVE_KEYWORD(endif)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_CONFIG(available)
+#line 151 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_OBJECT_LITERAL(fileLiteral, "file reference", ExpressibleByFileReferenceLiteral)
+#line 151 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_OBJECT_LITERAL(imageLiteral, "image", ExpressibleByImageLiteral)
+#line 151 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+POUND_OBJECT_LITERAL(colorLiteral, "color", ExpressibleByColorLiteral)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+LITERAL(integer_literal)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+LITERAL(floating_literal)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+LITERAL(string_literal)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(unknown)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(identifier)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(oper_binary_unspaced)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(oper_binary_spaced)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(oper_postfix)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(oper_prefix)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(dollarident)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(contextual_keyword)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(raw_string_delimiter)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(string_segment)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(string_interpolation_anchor)
+#line 153 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+MISC(kw_yield)
+#line 156 "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include/swift/Syntax/TokenKinds.def.gyb"
+
+// The following tokens are irrelevant for swiftSyntax and thus only declared 
+// in this .def file
+
+SIL_KEYWORD(undef)
+SIL_KEYWORD(sil)
+SIL_KEYWORD(sil_stage)
+SIL_KEYWORD(sil_property)
+SIL_KEYWORD(sil_vtable)
+SIL_KEYWORD(sil_global)
+SIL_KEYWORD(sil_witness_table)
+SIL_KEYWORD(sil_default_witness_table)
+SIL_KEYWORD(sil_coverage_map)
+SIL_KEYWORD(sil_scope)
+
+PUNCTUATOR(sil_dollar,    "$")    // Only in SIL mode.
+PUNCTUATOR(sil_exclamation, "!")    // Only in SIL mode.
+
+MISC(eof)
+MISC(code_complete)
+MISC(sil_local_name)       // %42 in SIL mode.
+MISC(comment)
+
+
+#undef TOKEN
+#undef KEYWORD
+#undef SWIFT_KEYWORD
+#undef DECL_KEYWORD
+#undef STMT_KEYWORD
+#undef EXPR_KEYWORD
+#undef PAT_KEYWORD
+#undef SIL_KEYWORD
+#undef POUND_KEYWORD
+#undef POUND_OBJECT_LITERAL
+#undef POUND_CONFIG
+#undef POUND_DIRECTIVE_KEYWORD
+#undef POUND_COND_DIRECTIVE_KEYWORD
+#undef PUNCTUATOR
+#undef LITERAL
+#undef MISC

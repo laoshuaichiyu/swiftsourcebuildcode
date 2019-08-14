@@ -1,0 +1,105 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_gyb_target"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftHandleGybSources.cmake",
+			"include/swift/Syntax/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "include-swift-Syntax-Trivia.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-SyntaxFactory.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-TokenKinds.def::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-SyntaxBuilders.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-SyntaxVisitor.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-SyntaxNodes.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "include-swift-Syntax-SyntaxKind.h::@8f5ec16f2686666d2310"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Miscellaneous"
+	},
+	"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310",
+	"name" : "swift-syntax-generated-headers",
+	"paths" : 
+	{
+		"build" : "include/swift/Syntax",
+		"source" : "include/swift/Syntax"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include/swift/Syntax/CMakeFiles/swift-syntax-generated-headers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include/swift/Syntax/CMakeFiles/swift-syntax-generated-headers.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

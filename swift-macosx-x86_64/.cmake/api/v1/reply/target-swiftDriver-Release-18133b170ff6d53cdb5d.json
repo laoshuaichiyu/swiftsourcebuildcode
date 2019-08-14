@@ -1,0 +1,551 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/lib/libswiftDriver.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_add_swift_library_single",
+			"add_swift_host_library",
+			"add_dependencies",
+			"add_dependencies_multiple_targets",
+			"target_link_libraries",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"lib/Driver/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 535,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 207,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 209,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 210,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 16
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1042,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 19
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 11
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 54,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 744,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 745,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 746,
+				"parent" : 22
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -O3    -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 18,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/lib/Driver"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/Driver"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftMarkup::@ffee834c526e61b86706"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftOption::@03597dd37d3dc3b95065"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftSyntax::@5bbc7d79c07d98d9d91b"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "SwiftOptions::@3b4cb295636c75b2b3ee"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-parse-syntax-generated-headers::@50dc68b246b3639a8224"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries"
+	},
+	"id" : "swiftDriver::@aadc8320e76fd80710e5",
+	"name" : "swiftDriver",
+	"nameOnDisk" : "libswiftDriver.a",
+	"paths" : 
+	{
+		"build" : "lib/Driver",
+		"source" : "lib/Driver"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/Action.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/Compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/DarwinToolChains.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/DependencyGraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/Driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/ExperimentalDependencyDriverGraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/FrontendUtil.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/Job.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/ParseableOutput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/PrettyStackTrace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/ToolChain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/ToolChains.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/UnixToolChains.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Driver/WindowsToolChains.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/Action.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/Compilation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/DependencyGraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/Driver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/ExperimentalDependencyDriverGraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/FrontendUtil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/Job.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/ParseableOutput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/PrettyStackTrace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/ToolChain.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "include/swift/Driver/Util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Driver/CompilationRecord.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "lib/Driver/ToolChains.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

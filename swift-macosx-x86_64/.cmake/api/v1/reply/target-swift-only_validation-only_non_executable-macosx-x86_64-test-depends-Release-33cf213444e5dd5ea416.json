@@ -1,0 +1,151 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swiftStdlibUnicodeUnittest-macosx::@1423b81b72e5601fc3fe"
+		},
+		{
+			"id" : "swiftStdlibCollectionUnittest-macosx::@2ee1f048f1d8c19984ed"
+		},
+		{
+			"id" : "swift-test-stdlib-macosx::@4b0dc26f9ca3c8b0306f"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "sil-opt::@f2e2ac3f86ff01de97ae"
+		},
+		{
+			"id" : "swift-ide-test::@4b0bab39b709ad2ef7fe"
+		},
+		{
+			"id" : "swift-remoteast-test::@9ffe1680b16f0b57ed29"
+		},
+		{
+			"id" : "swift-demangle::@5dcb2bbaa4e67f460799"
+		},
+		{
+			"id" : "swift-demangle-yamldump::@303e69431b2fd1f9ba24"
+		},
+		{
+			"id" : "lldb-moduleimport-test::@31b7886915f215cde692"
+		},
+		{
+			"id" : "sil-func-extractor::@5a23ed3be2d8c327a1f2"
+		},
+		{
+			"id" : "sil-llvm-gen::@abdffc370a62f89c0182"
+		},
+		{
+			"id" : "sil-nm::@3381ad51a09a178451ca"
+		},
+		{
+			"id" : "sil-passpipeline-dumper::@c7a770404413fa22c817"
+		},
+		{
+			"id" : "swift-llvm-opt::@a0ae38286ce47f4c4ca9"
+		},
+		{
+			"id" : "swift-api-digester::@527a401c20c111a300fe"
+		},
+		{
+			"id" : "swift-syntax-test::@6fa2414e2016a5d148e2"
+		},
+		{
+			"id" : "swift-refactor::@af5b92dfa96f3f4dd967"
+		},
+		{
+			"id" : "swift-syntax-parser-test::@448d48d6c5babb2bf6da"
+		},
+		{
+			"id" : "swift-reflection-test-macosx-x86_64_signed::@333e539df74fb39d7f5b"
+		},
+		{
+			"id" : "sourcekitd-test::@9e3054495676b3ef398c"
+		},
+		{
+			"id" : "complete-test::@de8639351c615dbbffba"
+		},
+		{
+			"id" : "swift-reflection-dump::@4de987d5eaaa3226a456"
+		},
+		{
+			"id" : "BlocksRuntimeStub-macosx-x86_64::@36f028580bb02cc8272a"
+		},
+		{
+			"id" : "SwiftUnitTests::@42060a6318a19e21b55a"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tests/check-swift"
+	},
+	"id" : "swift-only_validation-only_non_executable-macosx-x86_64-test-depends::@36f028580bb02cc8272a",
+	"name" : "swift-only_validation-only_non_executable-macosx-x86_64-test-depends",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/test/CMakeFiles/swift-only_validation-only_non_executable-macosx-x86_64-test-depends",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/test/CMakeFiles/swift-only_validation-only_non_executable-macosx-x86_64-test-depends.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

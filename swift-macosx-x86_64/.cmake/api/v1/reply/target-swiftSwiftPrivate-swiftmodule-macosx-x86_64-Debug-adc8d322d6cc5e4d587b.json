@@ -1,0 +1,94 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_add_swift_library_single",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/private/SwiftPrivate/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 931,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "lib-swift-macosx-SwiftPrivate.swiftmodule-x86_64.swiftmodule::@f4c7d47d8c4eae40f004"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Swift libraries/Modules"
+	},
+	"id" : "swiftSwiftPrivate-swiftmodule-macosx-x86_64::@f4c7d47d8c4eae40f004",
+	"name" : "swiftSwiftPrivate-swiftmodule-macosx-x86_64",
+	"paths" : 
+	{
+		"build" : "stdlib/private/SwiftPrivate",
+		"source" : "stdlib/private/SwiftPrivate"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/private/SwiftPrivate/CMakeFiles/swiftSwiftPrivate-swiftmodule-macosx-x86_64",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/private/SwiftPrivate/CMakeFiles/swiftSwiftPrivate-swiftmodule-macosx-x86_64.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

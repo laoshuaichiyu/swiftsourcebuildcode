@@ -1,0 +1,265 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swiftIRGen::@03f6f3fc3d65b462c699"
+		},
+		{
+			"id" : "swift-test-stdlib::@4b0dc26f9ca3c8b0306f"
+		},
+		{
+			"id" : "copy-legacy-layouts::@1688437938783f9daaa2"
+		},
+		{
+			"id" : "swiftCompatibility50-macosx::@3b768fb5b5de2f73525f"
+		},
+		{
+			"id" : "swiftCompatibilityDynamicReplacements-macosx::@c7a9ffa77d16ac7b3612"
+		},
+		{
+			"id" : "swiftReflection::@0ec21796aca99e408fdc"
+		},
+		{
+			"id" : "swiftRemoteMirror::@bb44e1fefa25fac0789b"
+		},
+		{
+			"id" : "swiftLLVMPasses::@fe38a83ee47d4fb79541"
+		},
+		{
+			"id" : "swiftMarkup::@ffee834c526e61b86706"
+		},
+		{
+			"id" : "swiftOption::@03597dd37d3dc3b95065"
+		},
+		{
+			"id" : "swiftParse::@fa4c3ce477f876cb8957"
+		},
+		{
+			"id" : "swiftParseSIL::@f027b5f057881f0af490"
+		},
+		{
+			"id" : "swiftPrintAsObjC::@6e8b71203781953cf830"
+		},
+		{
+			"id" : "swiftRemoteAST::@8b28f8371218b913fea4"
+		},
+		{
+			"id" : "swiftSema::@f38d7dc148d4b2b8fdb2"
+		},
+		{
+			"id" : "swiftSerialization::@615434d8f1a937df5f21"
+		},
+		{
+			"id" : "swiftDemangle::@593ffb613c9ce56fd6d0"
+		},
+		{
+			"id" : "swiftSIL::@6abb4c9011197188bd1a"
+		},
+		{
+			"id" : "swiftSILGen::@06774293364ebfb16372"
+		},
+		{
+			"id" : "swiftSILOptimizer::@0d2a07a3cbedde32c4f5"
+		},
+		{
+			"id" : "swiftSyntax::@5bbc7d79c07d98d9d91b"
+		},
+		{
+			"id" : "swiftTBDGen::@54afb3498d57a60873df"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "sil-opt::@f2e2ac3f86ff01de97ae"
+		},
+		{
+			"id" : "swift-ide-test::@4b0bab39b709ad2ef7fe"
+		},
+		{
+			"id" : "swift-remoteast-test::@9ffe1680b16f0b57ed29"
+		},
+		{
+			"id" : "swift-demangle::@5dcb2bbaa4e67f460799"
+		},
+		{
+			"id" : "swift-demangle-yamldump::@303e69431b2fd1f9ba24"
+		},
+		{
+			"id" : "lldb-moduleimport-test::@31b7886915f215cde692"
+		},
+		{
+			"id" : "sil-func-extractor::@5a23ed3be2d8c327a1f2"
+		},
+		{
+			"id" : "sil-llvm-gen::@abdffc370a62f89c0182"
+		},
+		{
+			"id" : "sil-nm::@3381ad51a09a178451ca"
+		},
+		{
+			"id" : "sil-passpipeline-dumper::@c7a770404413fa22c817"
+		},
+		{
+			"id" : "swift-llvm-opt::@a0ae38286ce47f4c4ca9"
+		},
+		{
+			"id" : "swift-api-digester::@527a401c20c111a300fe"
+		},
+		{
+			"id" : "swift-ast-script::@4f5041738668320120a1"
+		},
+		{
+			"id" : "swift-syntax-test::@6fa2414e2016a5d148e2"
+		},
+		{
+			"id" : "swift-refactor::@af5b92dfa96f3f4dd967"
+		},
+		{
+			"id" : "libSwiftSyntaxParser::@41d40aeb8bc215c516fa"
+		},
+		{
+			"id" : "swift-syntax-parser-test::@448d48d6c5babb2bf6da"
+		},
+		{
+			"id" : "SourceKitCore::@6b40a6d990e87fef8051"
+		},
+		{
+			"id" : "SourceKitSwiftLang::@74d58e7ab775368a8229"
+		},
+		{
+			"id" : "SourceKitSupport::@3b5a4c4ec6a048077e90"
+		},
+		{
+			"id" : "swift-reflection-test-macosx-x86_64::@333e539df74fb39d7f5b"
+		},
+		{
+			"id" : "copy_apinotes::@b684febfa8930924a55d"
+		},
+		{
+			"id" : "swiftAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"id" : "swiftASTSectionImporter::@7461ec17db9b4d942a0a"
+		},
+		{
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"id" : "swiftClangImporter::@6bb0f6b0d924eac9e33d"
+		},
+		{
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"id" : "swiftDriver::@aadc8320e76fd80710e5"
+		},
+		{
+			"id" : "swiftDWARFImporter::@65fd7bf0b6ece3bda6ae"
+		},
+		{
+			"id" : "swiftFrontend::@f3460d83975abd6e94e8"
+		},
+		{
+			"id" : "swiftFrontendTool::@9b084bc8b34040d23043"
+		},
+		{
+			"id" : "swiftImmediate::@75f8811b2c50cd68cda4"
+		},
+		{
+			"id" : "sourcekitdAPI::@c41498d7f11a05a0b62f"
+		},
+		{
+			"id" : "sourcekitdInProc::@bf7da81df66e3eb77bc0"
+		},
+		{
+			"id" : "sourcekitd::@59c47fb4e80ac1cfc124"
+		},
+		{
+			"id" : "SourceKitService::@91d72a0086f46da63dc9"
+		},
+		{
+			"id" : "sourcekitd-test::@9e3054495676b3ef398c"
+		},
+		{
+			"id" : "sourcekitd-repl::@bd8d67111383c7464819"
+		},
+		{
+			"id" : "complete-test::@de8639351c615dbbffba"
+		},
+		{
+			"id" : "swift-stdlib-tool::@9fcc8a17ba55c667e5df"
+		},
+		{
+			"id" : "swift-reflection-dump::@4de987d5eaaa3226a456"
+		},
+		{
+			"id" : "BlocksRuntimeStub-macosx-x86_64::@36f028580bb02cc8272a"
+		},
+		{
+			"id" : "docs_html::@25ace4044b5cefe8d37f"
+		},
+		{
+			"id" : "docs-tools-swift.1::@d0cb44c005b40708bd60"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/ALL_BUILD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/ALL_BUILD.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

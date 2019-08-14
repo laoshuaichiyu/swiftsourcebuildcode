@@ -1,0 +1,1844 @@
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 3)
+//// Automatically Generated From SortedCFDatabase.def.gyb.
+//// Do Not Edit Directly!
+//===----------------------------------------------------------------------===//
+//
+// This source file is part of the Swift.org open source project
+//
+// Copyright (c) 2014 - 2017 Apple Inc. and the Swift project authors
+// Licensed under Apache License v2.0 with Runtime Library Exception
+//
+// See https://swift.org/LICENSE.txt for license information
+// See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
+//
+//===----------------------------------------------------------------------===//
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 46)
+
+#ifndef CF_TYPE
+#  error "Must define CF_TYPE(NAME) before including this file."
+#endif
+#ifndef NON_CF_TYPE
+#  error "Must define NON_CF_TYPE(NAME) before including this file."
+#endif
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 47)
+
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FSRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(KCRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWARef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ModRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DragRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IconRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ListRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MenuRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFBagRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFSetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFURLRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTRunRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IBNibRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ScrapRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFDateRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFHostRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNullRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFTreeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFTypeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFUUIDRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGFontRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGPathRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTFontRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTLineRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DADiskRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRBurnRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRFileRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRTypeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DialogRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIViewRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(KCItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(LSMMapRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(LocaleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MDItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ODNodeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecACLRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecKeyRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(WindowRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABGroupRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSFontRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(AXValueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CAClockRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFArrayRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFErrorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGColorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGEventRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGImageRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGLayerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMClockRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTFrameRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ControlRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DREraseRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRTrackRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIShapeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(InkTextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSClassRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSValueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(LSMTextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MDLabelRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MDQueryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ODQueryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKIndexRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecCodeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTaskRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABPersonRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABPickerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABRecordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AEStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSGlyphRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSULineRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFBundleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFLocaleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNumberRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFPlugInRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFSocketRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFStringRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGRegionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CollatorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRDeviceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRFolderRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DragItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(HIWindowRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSStringRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(KCSearchRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIPortRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ODRecordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKSearchRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SecGuestRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTrustRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(UNDReplyRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CCCryptorRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFBooleanRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFRunLoopRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFXMLNodeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFXMLTreeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGPDFPageRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGPatternRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGShadingRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTTextTabRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DASessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DCMObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DNSRecordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventLoopRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWADeviceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAEngineRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIArchiveRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIToolbarRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOSurfaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IconCacheRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IconSuiteRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(InkStrokeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JRIGlobalRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(LAContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(LSMResultRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDISetupRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(NavDialogRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ODContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ODSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(RTPPacketRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKSummaryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecAccessRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecPolicyRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SecRandomRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(TECObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(TXTRecordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(UNDServerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(AXObserverRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioQueueRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFCalendarRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMachPortRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFTimeZoneRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGFunctionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGGradientRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFArrayRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMSDecoderRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMSEncoderRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMTimebaseRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CSIdentityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DNSServiceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRFSObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventQueueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(HandleDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFBCursorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDQueueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDValueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIClientRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIDeviceRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIDriverRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIEntityRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIObjectRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(PasteboardRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTMetaDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKDocumentRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SSLContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ThreadTaskRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(AXUIElementRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFAllocatorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFBitVectorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFXMLParserRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFObjectRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFStreamRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFStringRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTGlyphInfoRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DADissenterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventHotKeyRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventTargetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAMIDIPlugRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDDeviceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(OBEXSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(PointerDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(QLThumbnailRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(RTPMPSampleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecIdentityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecKeychainRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecPasswordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(TranslationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTFrameSiloRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(WindowGroupRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABMultiValueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFBinaryHeapRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFDictionaryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableBagRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableSetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNetServiceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFReadStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGColorSpaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFScannerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMMemoryPoolRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTTypesetterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ColorSyncCMMRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRAudioTrackRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventHandlerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ExtAudioFileRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAAudioPlugRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOBlitMemoryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDElementRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDManagerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOI2CConnectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(JRSUIControlRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIEndpointRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCBondStatusRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkSetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SecAsn1CoderRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTransformRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(UCTypeSelectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABAddressBookRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSFontFamilyRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AuthorizationRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFHTTPMessageRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMessagePortRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFWriteStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGDisplayModeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGEventSourceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGImageSourceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGMutablePathRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGPDFDocumentRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGPSConverterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMBlockBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMBufferQueueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMSimpleQueueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTFramesetterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTRunDelegateRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVDisplayLinkRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVImageBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVPixelBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DCMDictionaryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DCSDictionaryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRBurnSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRCDTextBlockRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FSEventStreamRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAMIDIStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIObjectClassRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIToolbarItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOVideoDeviceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(JRSUIRendererRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(LAEnvironmentRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MouseTrackingRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTSampleTableRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCPreferencesRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKSearchGroupRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SSLConnectionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecStaticCodeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioConverterRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFCharacterSetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFFileSecurityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableArrayRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFPropertyListRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFRunLoopTimerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGDataConsumerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGDataProviderRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMSampleBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVMetalTextureRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DREraseSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(EventLoopTimerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FNSubscriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(FSFileSecurityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAAudioStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAIsochStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(GLKMatrixStackRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(HIMutableShapeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IONotificationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSContextGroupRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(KeyboardLayoutRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIDeviceListRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTAudioContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(RTPPacketGroupRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCDynamicStoreRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecCertificateRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecRequirementRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SecureDownloadRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(TISInputSourceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABSearchElementRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AUEventListenerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFDateFormatterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableStringRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNetDiagnosticRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFRunLoopSourceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFURLEnumeratorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGDisplayConfigRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGDisplayStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGImageMetadataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFDictionaryRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CSIdentityQueryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLTextureRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(FSFileOperationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMEncodedFrameRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSGlobalContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(QLPreviewBubbleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTVisualContextRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCBondInterfaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCVLANInterfaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKSearchResultsRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecKeychainItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecPolicySearchRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(vImageConverterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSFontContainerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSUStyleSettingRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AUMIDIControllerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioQueueBufferRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFFileDescriptorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFPlugInInstanceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTFontCollectionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTFontDescriptorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTParagraphStyleRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTRubyAnnotationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ColorSyncProfileRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DVDEventCallBackRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(EventHandlerCallRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(FCFontDescriptorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(FWAMIDIDeviceNubRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(HIDPreparsedDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOHIDTransactionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(LSSharedFileListRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(QLPreviewRequestRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkServiceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecAccessControlRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(TECSnifferObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(TextBreakLocatorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNumberFormatterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFRunLoopObserverRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFStringTokenizerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGSWindowBackdropRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMClockOrTimebaseRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLESTextureRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVPixelBufferPoolRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DAApprovalSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRFilesystemTrackRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothDeviceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothObjectRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkProtocolRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecGroupTransformRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecIdentitySearchRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecKeychainSearchRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(WSProtocolHandlerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioQueueTimelineRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFAttributedStringRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableBitVectorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFUserNotificationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGImageDestinationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGImageMetadataTagRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFContentStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CGPDFOperatorTableRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGRegionEnumeratorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMAttachmentBearerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(CMIOHardwarePlugInRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLBufferPoolRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ColorSyncTransformRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ConstFSEventStreamRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(HIViewTrackingAreaRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothSDPUUIDRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IONotificationPortRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MIDIThruConnectionRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(QLThumbnailRequestRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkInterfaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ToolboxObjectClassRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTMultiPassStorageRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(WSMethodInvocationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ABMutableMultiValueRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSFontNotificationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AUParameterListenerRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioHardwarePlugInRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AuthorizationEngineRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AuthorizationPluginRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableDictionaryRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNetServiceBrowserRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNetServiceMonitorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CSIdentityAuthorityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVMetalTextureCacheRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DCMDictionaryStreamRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(DataBrowserItemDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMMultiPassStorageRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSPropertyNameArrayRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(PrivOBEXSessionDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkConnectionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(vImageCVImageFormatRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFHTTPAuthenticationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFNotificationCenterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLTextureCacheRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(DRNotificationCenterRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMCompressorSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(LSSharedFileListItemRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(MTAudioProcessingTapRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(MovieAudioExtractionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTMutableSampleTableRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTCompressionSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioServerPlugInHostRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableCharacterSetRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGDisplayStreamUpdateRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMCompressionSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(RTPPacketRepeatedDataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SCNetworkReachabilityRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTransformAttributeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTrustedApplicationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AuthorizationMechanismRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CGMutableImageMetadataRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CVOpenGLESTextureCacheRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMMutableEncodedFrameRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTDecompressionSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(VTPixelTransferSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AERemoteProcessResolverRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ATSFontNotificationInfoRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioQueueProcessingTapRef) // CFExclusions.def
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(AudioServerPlugInDriverRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMTextFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CTMutableFontCollectionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(ColorSyncMutableProfileRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMDecompressionSessionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothL2CAPChannelRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFireWireLibPHYCommandRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SKIndexDocumentIteratorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMAudioFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMMuxedFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMVideoFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMCompressorSourceFrameRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothRFCOMMChannelRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(vImageConstCVImageFormatRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CFMutableAttributedStringRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothSDPDataElementRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(JSPropertyNameAccumulatorRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMCompressionFrameOptionsRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFireWireLibVectorCommandRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(SecTransformImplementationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMMetadataFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMTimeCodeFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothSDPServiceRecordRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothUserNotificationRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMCompressionSessionOptionsRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMDecompressionFrameOptionsRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothPairingControllerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(QTComponentPropertyListenersRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(SecTransformStringOrAttributeRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(ICMDecompressionSessionOptionsRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFireWireLibPHYPacketListenerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTAudioTrackInsertRegistryInfoRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFireWireLibAsyncStreamCommandRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(CMClosedCaptionFormatDescriptionRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(IOFWAsyncStreamListenerInterfaceRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+NON_CF_TYPE(QTAudioContextInsertRegistryInfoRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothDeviceSelectorControllerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+CF_TYPE(IOBluetoothServiceBrowserControllerRef)
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 51)
+
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 53)
+
+#undef NON_CF_TYPE
+#undef CF_TYPE
+// ###sourceLocation(file: "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/lib/ClangImporter/SortedCFDatabase.def.gyb", line: 54)
+

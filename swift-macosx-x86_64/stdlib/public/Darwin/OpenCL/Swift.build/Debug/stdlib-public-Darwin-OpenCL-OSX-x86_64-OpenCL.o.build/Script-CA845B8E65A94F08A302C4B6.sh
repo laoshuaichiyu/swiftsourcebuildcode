@@ -1,0 +1,2 @@
+#!/bin/sh
+make -C /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/OpenCL -f /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Darwin/OpenCL/CMakeScripts/stdlib-public-Darwin-OpenCL-OSX-x86_64-OpenCL.o_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename "$OBJECT_FILE_DIR_normal") all

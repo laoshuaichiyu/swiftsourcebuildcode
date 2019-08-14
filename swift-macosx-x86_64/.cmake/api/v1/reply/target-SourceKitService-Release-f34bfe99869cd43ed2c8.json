@@ -1,0 +1,498 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/lib/sourcekitd.framework/Versions/A/XPCServices/SourceKitService.xpc/Contents/MacOS/SourceKitService"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"add_sourcekit_xpc_service",
+			"target_link_libraries",
+			"add_dependencies",
+			"include_directories",
+			"swift_common_standalone_build_config_llvm",
+			"swift_common_standalone_build_config",
+			"swift_common_standalone_build_config_clang",
+			"swift_common_standalone_build_config_cmark",
+			"add_definitions",
+			"set_property",
+			"llvm_update_compile_flags",
+			"include"
+		],
+		"files" : 
+		[
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"tools/SourceKit/cmake/modules/AddSwiftSourceKit.cmake",
+			"tools/SourceKit/tools/sourcekitd/bin/XPC/Service/CMakeLists.txt",
+			"tools/SourceKit/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/SwiftSharedCMakeConfig.cmake",
+			"tools/SourceKit/tools/CMakeLists.txt",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 421,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 434,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 777,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 98,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 564,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 535,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 207,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 133,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 133,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 209,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 170,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 210,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 193,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 3,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 197,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 755,
+				"parent" : 2
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 102,
+				"parent" : 11
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 54,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 744,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 745,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 746,
+				"parent" : 24
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -O3    -UNDEBUG  -fno-exceptions -fno-rtti -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -O2 -g0 -UNDEBUG -DSWIFT_ENABLE_RUNTIME_FUNCTION_COUNTERS  -fblocks"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 20,
+					"define" : "CMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/tools/sourcekitd/bin/XPC/Service"
+				},
+				{
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/tools/SourceKit/tools/sourcekitd/bin/XPC/Service"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/tools/SourceKit/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/tools/clang/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/tools/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/cmark/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/swift/tools/SourceKit/tools/sourcekitd/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "swiftIRGen::@03f6f3fc3d65b462c699"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftLLVMPasses::@fe38a83ee47d4fb79541"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftMarkup::@ffee834c526e61b86706"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftOption::@03597dd37d3dc3b95065"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftParse::@fa4c3ce477f876cb8957"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftParseSIL::@f027b5f057881f0af490"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSema::@f38d7dc148d4b2b8fdb2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSerialization::@615434d8f1a937df5f21"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSIL::@6abb4c9011197188bd1a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSILGen::@06774293364ebfb16372"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSILOptimizer::@0d2a07a3cbedde32c4f5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftSyntax::@5bbc7d79c07d98d9d91b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "generated_sourcekit_uids::@6f9c4bf988b01ea97fa0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SourceKitCore::@6b40a6d990e87fef8051"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SourceKitSwiftLang::@74d58e7ab775368a8229"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SourceKitSupport::@3b5a4c4ec6a048077e90"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-parse-syntax-generated-headers::@50dc68b246b3639a8224"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "swift-syntax-generated-headers::@8f5ec16f2686666d2310"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftClangImporter::@6bb0f6b0d924eac9e33d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftDemangling::@e79bfa489a68f7c1224f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftDriver::@aadc8320e76fd80710e5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftDWARFImporter::@65fd7bf0b6ece3bda6ae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "swiftFrontend::@f3460d83975abd6e94e8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sourcekitdAPI::@c41498d7f11a05a0b62f"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "XPC Services"
+	},
+	"id" : "SourceKitService::@91d72a0086f46da63dc9",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -O3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-exported_symbol,_main -target x86_64-apple-macosx10.9 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -arch x86_64 -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/../../../Developer/Library/Frameworks -mmacosx-version-min=10.9 -Wl,-dead_strip",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,@loader_path/../lib ../../../../../../../Release/lib/libSourceKitSwiftLang.a ../../../../../../../Release/lib/libsourcekitdAPI.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSupport.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMCoverage.a ../../../../../../../Release/lib/libSourceKitSwiftLang.a ../../../../../../../Release/lib/libSourceKitCore.a ../../../../../../../Release/lib/libswiftDriver.a ../../../../../../../Release/lib/libswiftFrontend.a ../../../../../../../Release/lib/libswiftIDE.a ../../../../../../../Release/lib/libswiftMigrator.a ../../../../../../../Release/lib/libswiftIndex.a ../../../../../../../Release/lib/libswiftFrontend.a ../../../../../../../Release/lib/libswiftIDE.a ../../../../../../../Release/lib/libswiftMigrator.a ../../../../../../../Release/lib/libswiftIndex.a ../../../../../../../Release/lib/libswiftDWARFImporter.a ../../../../../../../Release/lib/libswiftParseSIL.a ../../../../../../../Release/lib/libswiftIRGen.a ../../../../../../../Release/lib/libswiftSILGen.a ../../../../../../../Release/lib/libswiftSILOptimizer.a ../../../../../../../Release/lib/libswiftSIL.a ../../../../../../../Release/lib/libswiftLLVMPasses.a ../../../../../../../Release/lib/libswiftSema.a ../../../../../../../Release/lib/libswiftSerialization.a ../../../../../../../Release/lib/libswiftClangImporter.a ../../../../../../../Release/lib/libswiftParse.a ../../../../../../../Release/lib/libswiftSyntaxParse.a ../../../../../../../Release/lib/libswiftParse.a ../../../../../../../Release/lib/libswiftSyntaxParse.a ../../../../../../../Release/lib/libswiftAST.a ../../../../../../../Release/lib/libswiftMarkup.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFrontendTool.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMCoverage.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMCoroutines.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangARCMigrate.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangStaticAnalyzerFrontend.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangStaticAnalyzerCheckers.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangStaticAnalyzerCore.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangCrossTU.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangIndex.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFormat.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangToolingInclusions.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangToolingCore.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangRewriteFrontend.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFrontend.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangDriver.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangParse.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangSerialization.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangSema.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAnalysis.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangASTMatchers.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangEdit.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangRewrite.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAST.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangLex.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAPINotes.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangBasic.a ../../../../../../../Release/lib/libswiftOption.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/cmark-macosx-x86_64/src/Release/libcmark.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangIndex.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFormat.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangToolingCore.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFrontendTool.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangFrontend.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangDriver.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangSerialization.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangParse.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangSema.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAnalysis.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangEdit.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangRewriteFrontend.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangLex.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAST.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangAPINotes.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86CodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86AsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86Desc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86AsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86Disassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86Info.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMX86Utils.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMAsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMDisassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMDesc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMAsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMInfo.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMARMUtils.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64CodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64AsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64Disassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64Desc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64AsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64Info.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAArch64Utils.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCAsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCDesc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCAsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCDisassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPowerPCInfo.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZAsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZDisassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZDesc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZAsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSystemZInfo.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMGlobalISel.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSelectionDAG.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsAsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsDesc.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsAsmPrinter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsDisassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMCDisassembler.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMipsInfo.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMDebugInfoDWARF.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMLTO.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMPasses.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMipo.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMInstrumentation.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMIRReader.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAsmParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMLinker.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMCodeGen.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMBitWriter.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMTarget.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMScalarOpts.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAggressiveInstCombine.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMInstCombine.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMVectorize.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMOption.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMObjCARCOpts.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMTransformUtils.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMAnalysis.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMObject.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMBitReader.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMCParser.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMMC.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMDebugInfoCodeView.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMDebugInfoMSF.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMProfileData.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMCore.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMBinaryFormat.a ../../../../../../../Release/lib/libSourceKitSupport.a ../../../../../../../Release/lib/libswiftBasic.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMSupport.a -lz -lcurses -lm /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libLLVMDemangle.a ../../../../../../../Release/lib/libswiftDemangling.a ../../../../../../../Release/lib/libswiftSyntax.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangRewrite.a /Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/llvm-macosx-x86_64/Release/lib/libclangBasic.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SourceKitService",
+	"nameOnDisk" : "SourceKitService",
+	"paths" : 
+	{
+		"build" : "tools/SourceKit/tools/sourcekitd/bin/XPC/Service",
+		"source" : "tools/SourceKit/tools/sourcekitd/bin/XPC/Service"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "tools/SourceKit/tools/sourcekitd/bin/XPC/Service/XPCService.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/lib/sourcekitd.framework/Versions/A/XPCServices/SourceKitService.xpc/Contents/Info.plist",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/lib/sourcekitd.framework/Versions/A/XPCServices/SourceKitService.xpc/Contents/Info.plist.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

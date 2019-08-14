@@ -1,0 +1,52 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"stdlib/toolchain/legacy_layouts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "copy-legacy-layouts-macosx-x86_64::@1688437938783f9daaa2"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"id" : "copy-legacy-layouts::@1688437938783f9daaa2",
+	"name" : "copy-legacy-layouts",
+	"paths" : 
+	{
+		"build" : "stdlib/toolchain/legacy_layouts",
+		"source" : "stdlib/toolchain/legacy_layouts"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

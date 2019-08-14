@@ -1,0 +1,69 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"name" : "Xcode"
+		},
+		"paths" : 
+		{
+			"cmake" : "/usr/local/Cellar/cmake/3.15.2/bin/cmake",
+			"cpack" : "/usr/local/Cellar/cmake/3.15.2/bin/cpack",
+			"ctest" : "/usr/local/Cellar/cmake/3.15.2/bin/ctest",
+			"root" : "/usr/local/Cellar/cmake/3.15.2/share/cmake"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 15,
+			"patch" : 2,
+			"string" : "3.15.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-d58fd38e0a1e3d75d7d7.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-77d61420fff60a8e290b.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-77d61420fff60a8e290b.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-d58fd38e0a1e3d75d7d7.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	}
+}

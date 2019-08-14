@@ -1,0 +1,153 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command_target",
+			"_compile_swift_files",
+			"handle_swift_sources",
+			"_add_swift_library_single",
+			"add_swift_target_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftAddCustomCommandTarget.cmake",
+			"cmake/modules/SwiftSource.cmake",
+			"cmake/modules/AddSwift.cmake",
+			"stdlib/public/Platform/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1951,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 507,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "swiftCore-swiftmodule-macosx-x86_64::@8e81d50576416fe5b648"
+		},
+		{
+			"id" : "stdlib-public-Platform-8-tgmath.swift::@47dcd97854f962eca51e"
+		},
+		{
+			"id" : "stdlib-public-Platform-8-Darwin.swift::@47dcd97854f962eca51e"
+		},
+		{
+			"id" : "stdlib-public-Platform-OSX-x86_64::@47dcd97854f962eca51e"
+		},
+		{
+			"id" : "swift::@776bc33a40edeb3c1ed7"
+		},
+		{
+			"id" : "copy_apinotes::@b684febfa8930924a55d"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "add_custom_command_target artifacts"
+	},
+	"id" : "lib-swift-macosx-Darwin.swiftmodule-x86_64.Onone.sib::@47dcd97854f962eca51e",
+	"name" : "lib-swift-macosx-Darwin.swiftmodule-x86_64.Onone.sib",
+	"paths" : 
+	{
+		"build" : "stdlib/public/Platform",
+		"source" : "stdlib/public/Platform"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Platform/CMakeFiles/lib-swift-macosx-Darwin.swiftmodule-x86_64.Onone.sib",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Platform/CMakeFiles/lib-swift-macosx-Darwin.swiftmodule-x86_64.Onone.sib.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/CMakeFiles/lib/swift/macosx/Darwin.swiftmodule/x86_64.Onone.sib.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Platform/8/tgmath.swift.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/stdlib/public/Platform/8/Darwin.swift.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

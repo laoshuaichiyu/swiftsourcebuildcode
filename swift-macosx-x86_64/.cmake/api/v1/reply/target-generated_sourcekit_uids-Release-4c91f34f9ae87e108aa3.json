@@ -1,0 +1,83 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_gyb_target"
+		],
+		"files" : 
+		[
+			"cmake/modules/SwiftHandleGybSources.cmake",
+			"tools/SourceKit/include/SourceKit/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "tools-SourceKit-include-SourceKit-Core-ProtocolUIDs.def::@6f9c4bf988b01ea97fa0"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"id" : "generated_sourcekit_uids::@6f9c4bf988b01ea97fa0",
+	"name" : "generated_sourcekit_uids",
+	"paths" : 
+	{
+		"build" : "tools/SourceKit/include/SourceKit/Core",
+		"source" : "tools/SourceKit/include/SourceKit/Core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include/SourceKit/Core/CMakeFiles/generated_sourcekit_uids",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/zhuzhenhua/Documents/SwiftSourceCode/build/Xcode-ReleaseAssert/swift-macosx-x86_64/tools/SourceKit/include/SourceKit/Core/CMakeFiles/generated_sourcekit_uids.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

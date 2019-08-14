@@ -1,0 +1,45 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"stdlib/public/Platform/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Miscellaneous"
+	},
+	"id" : "glibc_modulemap::@47dcd97854f962eca51e",
+	"name" : "glibc_modulemap",
+	"paths" : 
+	{
+		"build" : "stdlib/public/Platform",
+		"source" : "stdlib/public/Platform"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

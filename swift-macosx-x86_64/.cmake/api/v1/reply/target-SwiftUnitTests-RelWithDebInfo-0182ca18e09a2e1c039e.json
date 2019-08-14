@@ -1,0 +1,451 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"add_unittest",
+			"add_swift_unittest"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddSwiftUnittests.cmake",
+			"unittests/CMakeLists.txt",
+			"/Users/zhuzhenhua/Documents/SwiftSourceCode/llvm/cmake/modules/AddLLVM.cmake",
+			"unittests/AST/CMakeLists.txt",
+			"unittests/Basic/CMakeLists.txt",
+			"unittests/ClangImporter/CMakeLists.txt",
+			"unittests/Driver/CMakeLists.txt",
+			"unittests/FrontendTool/CMakeLists.txt",
+			"unittests/IDE/CMakeLists.txt",
+			"unittests/Parse/CMakeLists.txt",
+			"unittests/SwiftDemangle/CMakeLists.txt",
+			"unittests/Syntax/CMakeLists.txt",
+			"unittests/SyntaxParser/CMakeLists.txt",
+			"unittests/runtime/CMakeLists.txt",
+			"unittests/runtime/LongTests/CMakeLists.txt",
+			"unittests/Reflection/CMakeLists.txt",
+			"unittests/SourceKit/Support/CMakeLists.txt",
+			"unittests/SourceKit/SwiftLang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 14
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 18
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 22
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 1,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 26
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 1,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 30
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 2,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 34
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 1,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 37
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 38
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 41
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 42
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 64,
+				"parent" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 46
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 32,
+				"parent" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 50
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 54
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 1,
+				"parent" : 56
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 57
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 58
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 17,
+				"line" : 2,
+				"parent" : 60
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1120,
+				"parent" : 62
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "SwiftASTTests::@145d41420fcd081cfdfe"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "SwiftBasicTests::@15c32fd692f3c1201247"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "SwiftClangImporterTests::@fe6c09f22515b1205a64"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "SwiftDriverTests::@aa94956f556defd977c3"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "SwiftFrontendTests::@c54e2869fc0af018662e"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "SwiftIDETests::@235e823f88a254ac0489"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "SwiftParseTests::@ae6b205d28e0bce7d258"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "SwiftDemangleTests::@c684fadd45efb3250e10"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "SwiftSyntaxTests::@a66024f891bd5635b56a"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "SwiftSyntaxParserTests::@fdf5e0a4f8a84e9e54c0"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "SwiftRuntimeTests::@545be27fb4435602ff2c"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "SwiftRuntimeLongTests::@5cdf1c475cf6edb05283"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "SwiftReflectionTests::@8ed711bb5bebb915bd8b"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "SourceKitSupportTests::@7d60520e4fdf4c81bc0c"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "SourceKitSwiftLangTests::@ec7cb57f12662207bb8e"
+		},
+		{
+			"id" : "ZERO_CHECK::@4b0dc26f9ca3c8b0306f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tests"
+	},
+	"id" : "SwiftUnitTests::@42060a6318a19e21b55a",
+	"name" : "SwiftUnitTests",
+	"paths" : 
+	{
+		"build" : "unittests",
+		"source" : "unittests"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
